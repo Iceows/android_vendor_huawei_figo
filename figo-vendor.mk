@@ -38,23 +38,19 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/figo/proprietary/odm/etc/camera/bshutter/ov13855_figo/algo.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/ov13855_figo/algo.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/bshutter/ov13855_figo/info.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/bshutter/ov13855_figo/info.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/device.config \
-    vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/hi1333_figo:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/hi1333_figo \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/hi1333_figo/gcd.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/hi1333_figo/gcd.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/hi1333_figo/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/hi1333_figo/rawnf.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/hi1333_figo/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/hi1333_figo/sharpen.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/hi1333_figo/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/hi1333_figo/yuvnf.xml \
-    vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/imx258_figo:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx258_figo \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/imx258_figo/gcd.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx258_figo/gcd.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/imx258_figo/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx258_figo/rawnf.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/imx258_figo/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx258_figo/sharpen.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/imx258_figo/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/imx258_figo/yuvnf.xml \
-    vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/ov13855_figo:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov13855_figo \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/ov13855_figo/gcd.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov13855_figo/gcd.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/ov13855_figo/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov13855_figo/rawnf.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/ov13855_figo/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov13855_figo/sharpen.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/digitalzoom/ov13855_figo/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/digitalzoom/ov13855_figo/yuvnf.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/multidenoise/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/device.config \
-    vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/multidenoise/hi1333_figo:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/hi1333_figo \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/multidenoise/hi1333_figo/rawnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/hi1333_figo/rawnf.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/multidenoise/hi1333_figo/sharpen.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/hi1333_figo/sharpen.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/configeffect/multidenoise/hi1333_figo/yuvnf.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/configeffect/multidenoise/hi1333_figo/yuvnf.xml \
@@ -77,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/hi1333_figo/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/hi1333_figo/hdr.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/hi1333_figo/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/hi1333_figo/imgproc.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/hi1333_figo/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/hi1333_figo/multiframe.xml \
-    vendor/huawei/figo/proprietary/odm/etc/camera/davinci/hi1333_figo/nicefood:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/hi1333_figo/nicefood \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/hi1333_figo/nicefood/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/hi1333_figo/nicefood/imgproc.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/hi843/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/hi843/hdr.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/hi843/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/hi843/imgproc.xml \
@@ -88,14 +83,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/imx258_figo/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx258_figo/hdr.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/imx258_figo/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx258_figo/imgproc.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/imx258_figo/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx258_figo/multiframe.xml \
-    vendor/huawei/figo/proprietary/odm/etc/camera/davinci/imx258_figo/nicefood:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx258_figo/nicefood \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/imx258_figo/nicefood/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/imx258_figo/nicefood/imgproc.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/kernel/davinciclkernel_32.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/kernel/davinciclkernel_32.bin \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/kernel/davinciclkernel_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/kernel/davinciclkernel_64.bin \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/ov13855_figo/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov13855_figo/hdr.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/ov13855_figo/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov13855_figo/imgproc.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/ov13855_figo/multiframe.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov13855_figo/multiframe.xml \
-    vendor/huawei/figo/proprietary/odm/etc/camera/davinci/ov13855_figo/nicefood:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov13855_figo/nicefood \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/ov13855_figo/nicefood/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov13855_figo/nicefood/imgproc.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/ov8856/hdr.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov8856/hdr.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/davinci/ov8856/imgproc.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/davinci/ov8856/imgproc.xml \
@@ -124,11 +117,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/figo/proprietary/odm/etc/camera/frontbokeh/frontBokeh_lensBlur.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/frontbokeh/frontBokeh_lensBlur.bin \
     vendor/huawei/figo/proprietary/odm/etc/camera/hdccalib/defaultOtp.rear:$(TARGET_COPY_OUT_ODM)/etc/camera/hdccalib/defaultOtp.rear \
     vendor/huawei/figo/proprietary/odm/etc/camera/hdccalib/device.config:$(TARGET_COPY_OUT_ODM)/etc/camera/hdccalib/device.config \
-    vendor/huawei/figo/proprietary/odm/etc/camera/hdccalib/figo_hi1333_sunny:$(TARGET_COPY_OUT_ODM)/etc/camera/hdccalib/figo_hi1333_sunny \
     vendor/huawei/figo/proprietary/odm/etc/camera/hdccalib/figo_hi1333_sunny/hw_calib_setting.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hdccalib/figo_hi1333_sunny/hw_calib_setting.xml \
-    vendor/huawei/figo/proprietary/odm/etc/camera/hdccalib/figo_imx258_ofilm:$(TARGET_COPY_OUT_ODM)/etc/camera/hdccalib/figo_imx258_ofilm \
     vendor/huawei/figo/proprietary/odm/etc/camera/hdccalib/figo_imx258_ofilm/hw_calib_setting.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hdccalib/figo_imx258_ofilm/hw_calib_setting.xml \
-    vendor/huawei/figo/proprietary/odm/etc/camera/hdccalib/figo_ov13855_liteon:$(TARGET_COPY_OUT_ODM)/etc/camera/hdccalib/figo_ov13855_liteon \
     vendor/huawei/figo/proprietary/odm/etc/camera/hdccalib/figo_ov13855_liteon/hw_calib_setting.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hdccalib/figo_ov13855_liteon/hw_calib_setting.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/hdccalib/hw_calib_setting.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hdccalib/hw_calib_setting.xml \
     vendor/huawei/figo/proprietary/odm/etc/camera/hwbeauty/default/foreign/hwbeauty_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/hwbeauty/default/foreign/hwbeauty_params.xml \
