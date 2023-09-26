@@ -4,3 +4,33 @@
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/huawei/figo
+
+PRODUCT_COPY_FILES += \
+    vendor/huawei/figo/proprietary/odm/etc/audio/algorithm/algorithm_FIGO_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/algorithm/algorithm_FIGO_normal.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/dts/dts_FIGO_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/dts/dts_FIGO_normal.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/hi6402/mixer_volumes_FIGO_ce.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hi6402/mixer_volumes_FIGO_ce.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/hissc/mixer_paths_FIGO.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hissc/mixer_paths_FIGO.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/hissc/mixer_volumes_FIGO_ce.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hissc/mixer_volumes_FIGO_ce.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/hissc/mixer_volumes_FIGO_cmcciot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hissc/mixer_volumes_FIGO_cmcciot.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/hissc/mixer_volumes_FIGO_gcf.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hissc/mixer_volumes_FIGO_gcf.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/hissc/mixer_volumes_FIGO_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hissc/mixer_volumes_FIGO_normal.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/hissc/mixer_volumes_FIGO_telecomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hissc/mixer_volumes_FIGO_telecomiot.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/hissc/mixer_volumes_FIGO_unicomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hissc/mixer_volumes_FIGO_unicomiot.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/hissc/pop_seq_FIGO.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/hissc/pop_seq_FIGO.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/mbdrc/mbdrc_FIGO_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/mbdrc/mbdrc_FIGO_normal.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/modem/modem_FIGO_cmcciot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_FIGO_cmcciot.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/modem/modem_FIGO_gcf.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_FIGO_gcf.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/modem/modem_FIGO_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_FIGO_normal.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/modem/modem_FIGO_telecomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_FIGO_telecomiot.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/modem/modem_FIGO_unicomiot.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/modem/modem_FIGO_unicomiot.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/sws/sws_3d_FIGO-Oversea_normal.cfg:$(TARGET_COPY_OUT_ODM)/etc/audio/sws/sws_3d_FIGO-Oversea_normal.cfg \
+    vendor/huawei/figo/proprietary/odm/etc/audio/sws/sws_3d_FIGO_normal.cfg:$(TARGET_COPY_OUT_ODM)/etc/audio/sws/sws_3d_FIGO_normal.cfg \
+    vendor/huawei/figo/proprietary/odm/etc/audio/sws/sws_FIGO-Oversea_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sws/sws_FIGO-Oversea_normal.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/sws/sws_FIGO_normal.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sws/sws_FIGO_normal.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/volume/audio_policy_volumes.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/volume/audio_policy_volumes.xml \
+    vendor/huawei/figo/proprietary/odm/etc/audio/volume/volume_point.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/volume/volume_point.xml \
+    vendor/huawei/figo/proprietary/odm/etc/libnfc-brcm.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-brcm.conf \
+    vendor/huawei/figo/proprietary/odm/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nci.conf \
+    vendor/huawei/figo/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
+    vendor/huawei/figo/proprietary/odm/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp_RF.conf \
+    vendor/huawei/figo/proprietary/odm/ta/sign_tool_product_ta.sec:$(TARGET_COPY_OUT_ODM)/ta/sign_tool_product_ta.sec
